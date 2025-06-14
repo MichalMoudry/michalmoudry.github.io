@@ -2,17 +2,58 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container py-5">
     <div class="row">
         <div class="col-3">
-            <div class="card">
+            <div class="card shadow-sm">
+                <img
+                    src="{{ /assets/profile-image.jpg | prepend: site.baseurl }}"
+                    alt="Michal Moudrý"
+                    draggable="false"
+                    class="rounded-t" />
                 <div class="card-body">
                     <h1 class="card-title">Michal Moudrý</h1>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a
+                        href="https://linkedin.com/in/michal-moudry/"
+                        title="LinkedIn"
+                        class="list-group-item list-group-item-action">
+                        LinkedIn
+                    </a>
+                    <a
+                        href="https://github.com/MichalMoudry"
+                        title="GitHub"
+                        class="list-group-item list-group-item-action">
+                        GitHub
+                    </a>
+                    <a
+                        href="https://bsky.app/profile/michalmoudry.bsky.social"
+                        title="Bluesky"
+                        class="list-group-item list-group-item-action">
+                        Bluesky
+                    </a>
                 </div>
             </div>
         </div>
 
         <div class="col">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title font-monospace">About</h2>
+                    <p class="card-text">
+                        .NET developer and occasionally a security engineer. Nowadays, working mostly with C# and .NET
+                        ecosystem developing web services and other types of applications. Currently, I am learning Go,
+                        C++ and Powershell.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    {% include workexperience.html %}
+                </div>
+            </div>
         </div>
     </div>
 </div>
