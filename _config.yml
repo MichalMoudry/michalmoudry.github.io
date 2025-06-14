@@ -1,0 +1,11 @@
+# Site settings
+title: 'Michal Moudrý | Software developer'
+descriptions: >
+  Personal website of software developer and network engineer Michal Moudrý.
+  This website contains his work experience, education and skills.
+baseurl: '/'
+url: 'https://michalmoudry.github.io'
+github_username: 'michalmoudry'
+
+# Build settings
+markdown: kramdown
