@@ -7,8 +7,17 @@
     font-stretch: 75% 125%;
 }
 
+@font-face {
+    font-family: 'Karla';
+    src: url('/assets/Karla.ttf') format('truetype');
+}
+
 h1, h2 {
     font-family: 'Hubot Sans', Consolas, monospace;
+}
+
+body {
+    font-family: 'Karla', system-ui, -apple-system, Arial, Helvetica, sans-serif;
 }
 
 .border-dashed {
