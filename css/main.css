@@ -20,6 +20,11 @@ body {
     font-family: 'Karla', system-ui, -apple-system, Arial, Helvetica, sans-serif;
 }
 
+.card-header {
+    color: white;
+    background-color: oklch(70.4% 0.14 182.503);
+}
+
 .border-dashed {
     border-style: dashed;
 }
