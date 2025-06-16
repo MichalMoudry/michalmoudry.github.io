@@ -33,14 +33,14 @@ body {
     color: oklch(68.5% 0.169 237.323);
 }
 
-.bi-bluesky:hover {
-    color: oklch(58.8% 0.158 241.966);
-}
-
 .bi-linkedin {
     color: oklch(60.9% 0.126 221.723);
 }
 
-.bi-linkedin:hover {
+.icon-link:hover > .bi-bluesky {
+    color: oklch(58.8% 0.158 241.966);
+}
+
+.icon-link:hover > .bi-linkedin {
     color: oklch(52% 0.105 223.128);
 }
