@@ -44,3 +44,8 @@ body {
 .icon-link:hover > .bi-linkedin {
     color: oklch(52% 0.105 223.128);
 }
+
+h2 > .bi {
+    width: 1em;
+    height: 1em;
+}
