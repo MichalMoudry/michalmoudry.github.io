@@ -49,3 +49,7 @@ h2 > .bi {
     width: 1em;
     height: 1em;
 }
+
+#skills-table td, #tools-table td {
+    border-style: dashed;
+}
