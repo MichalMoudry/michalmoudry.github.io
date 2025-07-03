@@ -15,6 +15,18 @@
     src: url('/assets/Inter-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/assets/Inter-Bold.woff2') format("woff2");
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
 .monospace {
     font-family: 'Hubot Sans', Consolas, monospace;
 }
