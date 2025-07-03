@@ -7,6 +7,14 @@
     font-stretch: 75% 125%;
 }
 
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/Inter-Regular.woff2') format('woff2');
+}
+
 .monospace {
     font-family: 'Hubot Sans', Consolas, monospace;
 }
