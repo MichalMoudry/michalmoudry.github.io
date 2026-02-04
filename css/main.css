@@ -20,7 +20,7 @@ html {
 
 .card-header {
     color: white;
-    background-color: oklch(70.4% 0.14 182.503);
+    background-color: var(--bs-primary);
 }
 
 .border-dashed {
