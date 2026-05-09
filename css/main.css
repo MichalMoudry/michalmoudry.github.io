@@ -1,21 +1,10 @@
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('/assets/Inter-Regular.woff2') format('woff2');
+    font-family: 'InclusiveSans';
+    src: url('/assets/InclusiveSans.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('/assets/Inter-Bold.woff2') format("woff2");
-}
-
-html {
-    font-family: 'Inter', sans-serif;
+body {
+    font-family: 'InclusiveSans', sans-serif;
 }
 
 .card-header {
